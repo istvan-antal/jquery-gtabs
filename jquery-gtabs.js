@@ -4,7 +4,7 @@
  *
  * Copyright 2010, Antal István Miklós
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://www.istvan-antal.ro/license
+ * http://www.istvan-antal.ro/open-source.html
  *
  */
 
