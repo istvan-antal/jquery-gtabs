@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gtabs</title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="jquery-gtabs.js"></script>
+        <script>
+            $(function () {
+                $("#tabs").gtabs();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="tabs">
+            <div>
+                <a href="#tabOne">First tab</a>
+                <a href="#tab2">Second tab</a>
+                <a href="#tab3">Third tab</a>
+            </div>
+            <div class="tab" id="tabOne">
+                Tab 1
+            </div>
+            <div class="tab" id="tab2">
+                Tab 2
+            </div>
+            <div class="tab" id="tab3">
+                Tab 3
+            </div>
+        </div>
+    </body>
+</html>
